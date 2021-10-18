@@ -1,0 +1,19 @@
+{"level":30,"time":"2021-10-18T03:17:33.158Z","pid":13816,"hostname":"DESKTOP-J783RV2","msg":"Listening on 65308"}
+{"level":30,"time":"2021-10-18T03:17:33.863Z","pid":13816,"hostname":"DESKTOP-J783RV2","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2021-10-18T03:17:33.873Z","pid":13816,"hostname":"DESKTOP-J783RV2","msg":"Changed active context"}
+{"level":30,"time":"2021-10-18T03:17:34.101Z","pid":13816,"hostname":"DESKTOP-J783RV2","msg":"Video path: undefined"}
+{"level":30,"time":"2021-10-18T03:17:34.101Z","pid":13816,"hostname":"DESKTOP-J783RV2","msg":"Changed active page"}
+{"level":30,"time":"2021-10-18T03:17:36.401Z","pid":13816,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: xpath=//a[@href='/signup']"}
+{"level":30,"time":"2021-10-18T03:17:36.490Z","pid":13816,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: css=.signup-form"}
+{"level":30,"time":"2021-10-18T03:17:36.510Z","pid":13816,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: id=name"}
+{"level":30,"time":"2021-10-18T03:17:36.534Z","pid":13816,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: id=lastname"}
+{"level":30,"time":"2021-10-18T03:17:36.555Z","pid":13816,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: id=email"}
+{"level":30,"time":"2021-10-18T03:17:36.574Z","pid":13816,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: id=password"}
+{"level":30,"time":"2021-10-18T03:17:36.592Z","pid":13816,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: css=.submit-button >> text=Cadastrar"}
+{"level":30,"time":"2021-10-18T03:17:36.659Z","pid":13816,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: css=p >> text=Agora você faz parte da Getgeeks. Tenha uma ótima experiência."}
+{"level":30,"time":"2021-10-18T03:17:37.662Z","pid":13816,"hostname":"DESKTOP-J783RV2","msg":"Changed active context"}
+{"level":30,"time":"2021-10-18T03:17:37.663Z","pid":13816,"hostname":"DESKTOP-J783RV2","msg":"Changing current active page"}
+{"level":30,"time":"2021-10-18T03:17:37.663Z","pid":13816,"hostname":"DESKTOP-J783RV2","msg":"Changed active page"}
+{"level":30,"time":"2021-10-18T03:17:37.673Z","pid":13816,"hostname":"DESKTOP-J783RV2","msg":"Changed active context"}
+{"level":30,"time":"2021-10-18T03:17:37.692Z","pid":13816,"hostname":"DESKTOP-J783RV2","msg":"Changing current active page"}
+{"level":30,"time":"2021-10-18T03:17:37.692Z","pid":13816,"hostname":"DESKTOP-J783RV2","msg":"Changed active page"}
