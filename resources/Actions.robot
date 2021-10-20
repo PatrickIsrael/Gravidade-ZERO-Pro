@@ -21,3 +21,14 @@ Verificar Mensagem de Sucesso
     ${expect_mensagem}    Set Variable    Agora você faz parte da Getgeeks. Tenha uma ótima experiência.
 
     Wait For Elements State    css=p >> text=${expect_mensagem}    Visible    5
+
+Verificar Modal de Alerta
+    [Arguments]         ${expect_mensagem}
+    ${modal_element}    Set Variable          css=.swal2-html-container    
+    ${modal_title}      Set Variable          css=.swal2-title             
+
+    Wait For Elements State    ${modal_title}    Visible    5
+    Get Text                   ${modal_title}    equal      Oops...    
+
+    Wait For Elements State    ${modal_element}    Visible    5
+    Get Text                   ${modal_element}    equal      ${expect_mensagem}    

@@ -1,19 +1,33 @@
-{"level":30,"time":"2021-10-18T03:17:33.158Z","pid":13816,"hostname":"DESKTOP-J783RV2","msg":"Listening on 65308"}
-{"level":30,"time":"2021-10-18T03:17:33.863Z","pid":13816,"hostname":"DESKTOP-J783RV2","msg":"currentBrowser: [object Object]"}
-{"level":30,"time":"2021-10-18T03:17:33.873Z","pid":13816,"hostname":"DESKTOP-J783RV2","msg":"Changed active context"}
-{"level":30,"time":"2021-10-18T03:17:34.101Z","pid":13816,"hostname":"DESKTOP-J783RV2","msg":"Video path: undefined"}
-{"level":30,"time":"2021-10-18T03:17:34.101Z","pid":13816,"hostname":"DESKTOP-J783RV2","msg":"Changed active page"}
-{"level":30,"time":"2021-10-18T03:17:36.401Z","pid":13816,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: xpath=//a[@href='/signup']"}
-{"level":30,"time":"2021-10-18T03:17:36.490Z","pid":13816,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: css=.signup-form"}
-{"level":30,"time":"2021-10-18T03:17:36.510Z","pid":13816,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: id=name"}
-{"level":30,"time":"2021-10-18T03:17:36.534Z","pid":13816,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: id=lastname"}
-{"level":30,"time":"2021-10-18T03:17:36.555Z","pid":13816,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: id=email"}
-{"level":30,"time":"2021-10-18T03:17:36.574Z","pid":13816,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: id=password"}
-{"level":30,"time":"2021-10-18T03:17:36.592Z","pid":13816,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: css=.submit-button >> text=Cadastrar"}
-{"level":30,"time":"2021-10-18T03:17:36.659Z","pid":13816,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: css=p >> text=Agora você faz parte da Getgeeks. Tenha uma ótima experiência."}
-{"level":30,"time":"2021-10-18T03:17:37.662Z","pid":13816,"hostname":"DESKTOP-J783RV2","msg":"Changed active context"}
-{"level":30,"time":"2021-10-18T03:17:37.663Z","pid":13816,"hostname":"DESKTOP-J783RV2","msg":"Changing current active page"}
-{"level":30,"time":"2021-10-18T03:17:37.663Z","pid":13816,"hostname":"DESKTOP-J783RV2","msg":"Changed active page"}
-{"level":30,"time":"2021-10-18T03:17:37.673Z","pid":13816,"hostname":"DESKTOP-J783RV2","msg":"Changed active context"}
-{"level":30,"time":"2021-10-18T03:17:37.692Z","pid":13816,"hostname":"DESKTOP-J783RV2","msg":"Changing current active page"}
-{"level":30,"time":"2021-10-18T03:17:37.692Z","pid":13816,"hostname":"DESKTOP-J783RV2","msg":"Changed active page"}
+{"level":30,"time":"2021-10-20T11:58:35.381Z","pid":7828,"hostname":"DESKTOP-J783RV2","msg":"Listening on 53542"}
+{"level":30,"time":"2021-10-20T11:58:35.991Z","pid":7828,"hostname":"DESKTOP-J783RV2","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2021-10-20T11:58:36.002Z","pid":7828,"hostname":"DESKTOP-J783RV2","msg":"Changed active context"}
+{"level":30,"time":"2021-10-20T11:58:36.224Z","pid":7828,"hostname":"DESKTOP-J783RV2","msg":"Video path: undefined"}
+{"level":30,"time":"2021-10-20T11:58:36.224Z","pid":7828,"hostname":"DESKTOP-J783RV2","msg":"Changed active page"}
+{"level":30,"time":"2021-10-20T11:58:38.029Z","pid":7828,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: xpath=//a[@href='/signup']"}
+{"level":30,"time":"2021-10-20T11:58:38.140Z","pid":7828,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: css=.signup-form"}
+{"level":30,"time":"2021-10-20T11:58:38.158Z","pid":7828,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: id=name"}
+{"level":30,"time":"2021-10-20T11:58:38.181Z","pid":7828,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: id=lastname"}
+{"level":30,"time":"2021-10-20T11:58:38.198Z","pid":7828,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: id=email"}
+{"level":30,"time":"2021-10-20T11:58:38.216Z","pid":7828,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: id=password"}
+{"level":30,"time":"2021-10-20T11:58:38.232Z","pid":7828,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: css=.submit-button >> text=Cadastrar"}
+{"level":30,"time":"2021-10-20T11:58:38.292Z","pid":7828,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: css=p >> text=Agora você faz parte da Getgeeks. Tenha uma ótima experiência."}
+{"level":30,"time":"2021-10-20T11:58:39.154Z","pid":7828,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: css=a[href=\"/\"] >> text=Voltar"}
+{"level":30,"time":"2021-10-20T11:58:39.192Z","pid":7828,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: xpath=//a[@href='/signup']"}
+{"level":30,"time":"2021-10-20T11:58:39.241Z","pid":7828,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: css=.signup-form"}
+{"level":30,"time":"2021-10-20T11:58:39.253Z","pid":7828,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: id=name"}
+{"level":30,"time":"2021-10-20T11:58:39.268Z","pid":7828,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: id=lastname"}
+{"level":30,"time":"2021-10-20T11:58:39.285Z","pid":7828,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: id=email"}
+{"level":30,"time":"2021-10-20T11:58:39.307Z","pid":7828,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: id=password"}
+{"level":30,"time":"2021-10-20T11:58:39.322Z","pid":7828,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: css=.submit-button >> text=Cadastrar"}
+{"level":30,"time":"2021-10-20T11:58:39.382Z","pid":7828,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: css=.swal2-title"}
+{"level":30,"time":"2021-10-20T11:58:39.559Z","pid":7828,"hostname":"DESKTOP-J783RV2","msg":"Strict mode is: true"}
+{"level":30,"time":"2021-10-20T11:58:39.574Z","pid":7828,"hostname":"DESKTOP-J783RV2","msg":"Retrieved text for element css=.swal2-title containing Oops..."}
+{"level":30,"time":"2021-10-20T11:58:39.576Z","pid":7828,"hostname":"DESKTOP-J783RV2","msg":"Page|Frame|Element resolved elementSelector: css=.swal2-html-container"}
+{"level":30,"time":"2021-10-20T11:58:39.589Z","pid":7828,"hostname":"DESKTOP-J783RV2","msg":"Strict mode is: true"}
+{"level":30,"time":"2021-10-20T11:58:39.601Z","pid":7828,"hostname":"DESKTOP-J783RV2","msg":"Retrieved text for element css=.swal2-html-container containing Já temos um usuário com o e-mail informado."}
+{"level":30,"time":"2021-10-20T11:58:39.806Z","pid":7828,"hostname":"DESKTOP-J783RV2","msg":"Changed active context"}
+{"level":30,"time":"2021-10-20T11:58:39.807Z","pid":7828,"hostname":"DESKTOP-J783RV2","msg":"Changing current active page"}
+{"level":30,"time":"2021-10-20T11:58:39.807Z","pid":7828,"hostname":"DESKTOP-J783RV2","msg":"Changed active page"}
+{"level":30,"time":"2021-10-20T11:58:39.817Z","pid":7828,"hostname":"DESKTOP-J783RV2","msg":"Changed active context"}
+{"level":30,"time":"2021-10-20T11:58:39.817Z","pid":7828,"hostname":"DESKTOP-J783RV2","msg":"Changing current active page"}
+{"level":30,"time":"2021-10-20T11:58:39.817Z","pid":7828,"hostname":"DESKTOP-J783RV2","msg":"Changed active page"}

@@ -5,6 +5,8 @@ Library    Browser
 Library    factories/Usuario.py
 
 Resource    Actions.robot
+Resource    Database.robot
+Resource    Helpers.robot
 
 *Keywords*
 Acessar Página Web
