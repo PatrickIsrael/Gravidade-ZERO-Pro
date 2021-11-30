@@ -1,9 +1,11 @@
 *Settings*
-Documentation    Ações do Sistema
+Documentation    Ações da tela de cadastro de usuário
+
+Library    Collections
 
 *Keywords*
 Ir para o Formulário de Cadastro
-    Click                      xpath=//a[@href='/signup']
+    Go To                      ${urlBase}/signup
     Wait For Elements State    css=.signup-form
 
 Preencher os Campos de Cadastro
@@ -22,13 +24,24 @@ Verificar Mensagem de Sucesso
 
     Wait For Elements State    css=p >> text=${expect_mensagem}    Visible    5
 
-Verificar Modal de Alerta
-    [Arguments]         ${expect_mensagem}
-    ${modal_element}    Set Variable          css=.swal2-html-container    
-    ${modal_title}      Set Variable          css=.swal2-title             
 
-    Wait For Elements State    ${modal_title}    Visible    5
-    Get Text                   ${modal_title}    equal      Oops...    
+Verificar Alerta de erro
+    [Arguments]    ${expect_alert}
 
-    Wait For Elements State    ${modal_element}    Visible    5
-    Get Text                   ${modal_element}    equal      ${expect_mensagem}    
+    Wait For Elements State    css=span[class='error'] >> text=${expect_alert}    Visible    5
+
+Validar Lista de Alertas
+    [Arguments]    ${expected_alerts}
+
+    @{got_alerts}    Create List
+
+    ${spans}    Get Elements    css=span[class='error']
+
+    FOR    ${span}    IN    @{spans} 
+
+    ${text}           Get Text         ${span}
+    Append To List    ${got_alerts}    ${text} 
+
+    END
+
+    Lists Should Be Equal    ${expected_alerts}    ${got_alerts}
