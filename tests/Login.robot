@@ -43,3 +43,34 @@ Logar com email inválido
     Preencher as credenciais    ${user}
     Submeter o Formulário
     Email Inválido
+
+Email obrigatório
+    [Tags]    campos_obrigatorios
+
+    ${user}    Create Dictionary    email=    senha=teste123
+
+    Ir para a tela de login
+    Preencher as credenciais                        ${user}
+    Submeter o Formulário
+    Verificar Mensagem de Erro Campo Obrigatorio    E-mail obrigatório
+
+Senha obrigatória
+    [Tags]    campos_obrigatorios
+
+    ${user}    Create Dictionary    email=patrickisrael@teste.com.br    senha=
+
+    Ir para a tela de login
+    Preencher as credenciais                        ${user}
+    Submeter o Formulário
+    Verificar Mensagem de Erro Campo Obrigatorio    Senha obrigatória
+
+Credenciais obrigatórias
+    [Tags]    campos_obrigatorios
+
+    ${user}    Create Dictionary    email=    senha=
+
+    Ir para a tela de login
+    Preencher as credenciais                        ${user}
+    Submeter o Formulário
+    Verificar Mensagem de Erro Campo Obrigatorio    E-mail obrigatório
+    Verificar Mensagem de Erro Campo Obrigatorio    Senha obrigatória

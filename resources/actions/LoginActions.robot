@@ -6,6 +6,7 @@ Library    Collections
 *Variables*
 ${INPUT_EMAIL}    id=email       
 ${INPUT_SENHA}    id=password    
+${ERROR}          css=.error
 
 *Keywords*
 Ir para a tela de login
@@ -32,3 +33,8 @@ Validar login do usuário
 
 Email Inválido
     Get Property    ${INPUT_EMAIL}    type    equal    email
+
+Verificar Mensagem de Erro Campo Obrigatorio
+    [Arguments]    ${expect_mensagem}
+
+    Wait For Elements State    ${ERROR} >> text=${expect_mensagem}    Visible    5
