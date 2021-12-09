@@ -19,17 +19,6 @@ Preencher os Campos de Cadastro
 Clicar em Cadastrar
     Click    css=.submit-button >> text=Cadastrar
 
-Verificar Mensagem de Sucesso
-    ${expect_mensagem}    Set Variable    Agora você faz parte da Getgeeks. Tenha uma ótima experiência.
-
-    Wait For Elements State    css=p >> text=${expect_mensagem}    Visible    5
-
-
-Verificar Alerta de erro
-    [Arguments]    ${expect_alert}
-
-    Wait For Elements State    css=span[class='error'] >> text=${expect_alert}    Visible    5
-
 Validar Lista de Alertas
     [Arguments]    ${expected_alerts}
 

@@ -25,6 +25,14 @@ Inserir Usuario
     Execute SQL String    ${q}
 
 Inserir Usuarios Sementes
-    ${user}    Usuario Login
+    ${user}    Get Usuario    login
 
     Inserir Usuario    ${user} 
+
+    ${user2}    Get Usuario    geek
+
+    Inserir Usuario    ${user2} 
+
+    ${user3}    Get Usuario    geek_invalido
+
+    Inserir Usuario    ${user3} 

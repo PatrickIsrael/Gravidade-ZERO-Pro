@@ -4,25 +4,25 @@ Documentation    Suite de Testes da tela de cadastro de usuário
 Resource    ${EXECDIR}/resources/Base.robot
 
 Test Setup       Acessar Página Web
-Test Teardown    Encerrar Sessão
+Test Teardown    Tirar Print
 
 *Test Cases*
 Cadastrar usuário
 
     [Tags]    fluxo_princial
 
-    ${user}    Usuario Valido
+    ${user}    Get Usuario    faker
 
     Ir para o Formulário de cadastro
     Preencher os campos de cadastro     ${user} 
     Clicar em Cadastrar
-    Verificar Mensagem de Sucesso
+    Verificar Mensagem de Sucesso       Agora você faz parte da Getgeeks. Tenha uma ótima experiência.
 
 E-mail duplicado
 
     [Tags]    email_dup
 
-    ${user}    Usuario Valido
+    ${user}    Get Usuario    faker
 
     Registrar Usuario por Insert    ${user} 
 
@@ -35,7 +35,7 @@ E-mail com formato incorreto
 
     [Tags]    email_inv
 
-    ${user}    Usuario Email Invalido
+    ${user}    Get Usuario    email_invalido
 
     Ir para o Formulário de cadastro
     Preencher os campos de cadastro     ${user} 

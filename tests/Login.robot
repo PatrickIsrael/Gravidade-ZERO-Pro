@@ -4,12 +4,12 @@ Documentation    Suite de Testes da tela de login de usuário
 Resource    ${EXECDIR}/resources/Base.robot
 
 Test Setup       Acessar Página Web
-Test Teardown    Encerrar Sessão
+Test Teardown    Tirar Print
 
 *Test Cases*
 Logar com usuário válido
 
-    ${user}    Usuario Login
+    ${user}    Get Usuario    login
 
     Ir para a tela de login
     Preencher as credenciais    ${user}
@@ -47,30 +47,30 @@ Logar com email inválido
 Email obrigatório
     [Tags]    campos_obrigatorios
 
-    ${user}    Create Dictionary    email=    senha=teste123
+    ${user}    Create Dictionary    email=${EMPTY}    senha=teste123
 
     Ir para a tela de login
-    Preencher as credenciais                        ${user}
+    Preencher as credenciais    ${user}
     Submeter o Formulário
-    Verificar Mensagem de Erro Campo Obrigatorio    E-mail obrigatório
+    Verificar Alerta de erro    E-mail obrigatório
 
 Senha obrigatória
     [Tags]    campos_obrigatorios
 
-    ${user}    Create Dictionary    email=patrickisrael@teste.com.br    senha=
+    ${user}    Create Dictionary    email=patrickisrael@teste.com.br    senha=${EMPTY}
 
     Ir para a tela de login
-    Preencher as credenciais                        ${user}
+    Preencher as credenciais    ${user}
     Submeter o Formulário
-    Verificar Mensagem de Erro Campo Obrigatorio    Senha obrigatória
+    Verificar Alerta de erro    Senha obrigatória
 
 Credenciais obrigatórias
     [Tags]    campos_obrigatorios
 
-    ${user}    Create Dictionary    email=    senha=
+    @{expected_alerts}    Create List
+    ...                   E-mail obrigatório
+    ...                   Senha obrigatória
 
     Ir para a tela de login
-    Preencher as credenciais                        ${user}
     Submeter o Formulário
-    Verificar Mensagem de Erro Campo Obrigatorio    E-mail obrigatório
-    Verificar Mensagem de Erro Campo Obrigatorio    Senha obrigatória
+    Validar Lista de Alertas    ${expected_alerts}

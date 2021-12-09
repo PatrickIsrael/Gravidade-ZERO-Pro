@@ -4,7 +4,8 @@ Documentation    Suite de teste dos campos obrigatórios do cadastro de usuário
 Resource    ${EXECDIR}/resources/Base.robot
 
 Suite Setup      Cadastrar Usuário Vazio
-Test Teardown    Encerrar Sessão
+Test Teardown    Tirar Print
+
 
 *Test Cases*
 Nome em Branco

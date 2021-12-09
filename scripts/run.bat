@@ -1,3 +1,3 @@
 cd ..
 robot -l NONE -o NONE -r NONE tasks\Delorian.robot
-robot -d ./logs tests\Cadastro.robot
+robot -d ./logs tests\CamposInvalidosSejaGeek.robot
