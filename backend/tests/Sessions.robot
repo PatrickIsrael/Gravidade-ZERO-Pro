@@ -1,7 +1,7 @@
 **Settings**
 Documentation    Suíte de testes da rota de Sessions
 
-Resource    ${EXECDIR}/users/resources/Base.robot
+Resource    ${EXECDIR}/resources/Base.robot
 
 *Variables*
 &{senha_invalida}             email=teste.api@teste.com    password=Abc123
