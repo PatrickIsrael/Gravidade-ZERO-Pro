@@ -32,7 +32,7 @@ jobs:
         
     - name: Upload a Api test results
       uses: actions/upload-artifact@v3.0.0
-      if: awalys()
+      if: always()
       with:
         name: api-reports
         path: backend/logs
