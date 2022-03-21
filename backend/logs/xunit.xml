@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Tests" tests="8" errors="0" failures="0" skipped="0" time="27.065">
+<testcase classname="Tests.Geeks" name="Seja um Geek" time="3.648">
+</testcase>
+<testcase classname="Tests.Geeks" name="Consultar Geeks" time="7.466">
+</testcase>
+<testcase classname="Tests.Sessions" name="Login do Usuário" time="1.312">
+</testcase>
+<testcase classname="Tests.Sessions" name="Login do Usuário - validações" time="4.477">
+</testcase>
+<testcase classname="Tests.Users" name="Cadastrar Usuário" time="1.955">
+</testcase>
+<testcase classname="Tests.Users" name="Consultar Usuário" time="1.988">
+</testcase>
+<testcase classname="Tests.Users" name="Remover Usuário" time="2.584">
+</testcase>
+<testcase classname="Tests.Users" name="Alterar Usuário" time="3.479">
+</testcase>
+</testsuite>
