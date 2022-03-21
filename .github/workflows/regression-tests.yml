@@ -37,7 +37,7 @@ jobs:
         name: api-reports
         path: backend/logs
     - name: Tester Reporter
-      users: dorny/test-reporter@v1.5.0
+      uses: dorny/test-reporter@v1.5.0
       with:
         name: api-reports
         path: backend/logs/xunit.xml
