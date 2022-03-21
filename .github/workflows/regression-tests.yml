@@ -65,8 +65,8 @@ jobs:
     
     - name: Run Web tests
       run: |
-        chmod +x ./frontend/scripts/run.sh
-        cd frontend/scripts/ && ./run.sh
+        chmod +x ./frondend/scripts/run.sh
+        cd /frondend/scripts && ./run.sh
         
     - name: Upload a Web test results
       uses: actions/upload-artifact@v3.0.0
