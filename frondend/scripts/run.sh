@@ -1,6 +1,6 @@
 cd ..
 robot -l NONE -o NONE -r NONE tasks/Delorian.robot
-pabot -d ./logs -v BROWSER:chromium -v HEADLESS:False tests
+pabot -x xunit.xml -d ./logs -v BROWSER:chromium -v HEADLESS:True tests
 
 rm -rf ./logs/browser
 mkdir ./logs/browser
