@@ -87,7 +87,7 @@ jobs:
       if: always()
       with:
         name: web-reports
-        path: backend/logs
+        path: frontend/logs
 
     - name: Tester Reporter
       uses: dorny/test-reporter@v1.5.0
