@@ -57,33 +57,38 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: ${{ matrix.python-version }}
+   
     - name: Set up Install NodeJs 14
-    run: |
+      run: |
       curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
       sudo apt-get install -y nodejs
+    
     - name: Preparation
       run: |
         sudo apt-get update
         sudo apt-get install -y xvfb ca-certificates net-tools netcat gnupg ffmpeg libgtk-3-0 libgdk-pixbuf2.0-dev libxcomposite-dev libdbus-glib-1-2 libatk-bridge2.0-0 wget libgbm1 libnss3 libxss1 libasound2
+    
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install build
         pip install -r requirements.txt
 
-    - name: Iniciar o Browser
+    - name: Run Browser Init
       run:  rfbrowser init
 
     - name: Run Web tests
       run: |
         chmod +x ./frontend/scripts/run.sh
         cd frontend/scripts && ./run.sh
+
     - name: Upload a Web test results
       uses: actions/upload-artifact@v3.0.0
       if: always()
       with:
         name: web-reports
         path: backend/logs
+
     - name: Tester Reporter
       uses: dorny/test-reporter@v1.5.0
       with:
