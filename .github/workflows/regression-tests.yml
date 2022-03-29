@@ -1,7 +1,8 @@
 name: Regression Tests
 
 on:
-  workflow_dispatch
+   push:
+    branches: [ main ]
 
 jobs:
   api_tests:
