@@ -19,7 +19,7 @@ Logar com usuário válido
 
 Logar com usuário inválido
 
-    ${user}    Create Dictionary    email=patrickisrael@teste.com.br    senha=teste123
+    ${user}    Create Dictionary    email=patrickisrael@teste.com.br    senha=abc123
 
     Ir para a tela de login
     Preencher as credenciais     ${user}

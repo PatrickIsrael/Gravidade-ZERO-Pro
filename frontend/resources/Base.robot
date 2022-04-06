@@ -3,6 +3,7 @@ Documentation    Base dos arquivos de teste
 
 Library    Browser
 Library    Collections
+Library    String
 
 Library    factories/Usuario.py
 Library    utils.py
@@ -10,10 +11,12 @@ Library    utils.py
 Resource    actions/_SharedActions.robot
 Resource    actions/CadastroActions.robot
 Resource    actions/LoginActions.robot
-Resource    actions/SejaGeekActions.robot
+Resource    actions/GeekActions.robot
 
 Resource    Database.robot
 Resource    Helpers.robot
+Resource    Services.robot
+
 *Variables*
 
 ${urlBase}    https://getgeeks-patrick.herokuapp.com

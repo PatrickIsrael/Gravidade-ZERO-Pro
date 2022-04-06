@@ -25,14 +25,12 @@ Inserir Usuario
     Execute SQL String    ${q}
 
 Inserir Usuarios Sementes
-    ${user}    Get Usuario    login
+
+
+    ${users}    Get Usuarios Insert Bd
+
+    FOR    ${user}    IN    @{users}
 
     Inserir Usuario    ${user} 
 
-    ${user2}    Get Usuario    geek
-
-    Inserir Usuario    ${user2} 
-
-    ${user3}    Get Usuario    geek_invalido
-
-    Inserir Usuario    ${user3} 
+    END

@@ -17,3 +17,10 @@ Logar com Usuario
     Preencher as credenciais    ${user}
     Submeter o Formulário
     Validar login do usuário    ${user}
+
+Criar um Geek via serviço
+    [Arguments]    ${user}
+
+    ${token}    Get Token Service    ${user}
+
+    ${response}    Seja um Geek Service    ${user}[formulario_geek]    ${token}    
