@@ -1,7 +1,7 @@
 name: Regression Tests
 
 on:
-  push:
+   push:
     branches: [ main ]
 
 jobs:
